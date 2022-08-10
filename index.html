@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySkill</title>
+    
+    <!--bootstrap 5 css link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--bootstrap 5 icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--External css-->
+    <link href="./css/style.css" rel="stylesheet">
+    </head>
+
+<body>
+
+    <!--top nav-->
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+                <marquee width = "100%">Happy Independence Day!   <i class="bi bi-heart-fill"></i></marquee>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="bi bi-bag-fill"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="bi bi-person-circle"></i>
+            </a>
+        </li>
+    </ul>
+
+
+
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span class="logo">My</span>Skill</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-bookmarks-fill"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dev">Development</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recomm">Recommended</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#it">IT & Software</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#topic">Topics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!--main img-->
+    <div class="container-fluid">
+        <div class="main">
+        </div>
+    </div>
+
+    <!--new learn-->
+    <section class="new-learn" id="dev">
+        <div class="container-fluid">
+            <h1>What to learn next</h1>
+            <h4>Because you viewed <span style="color:slateblue ;">“MERN Stack Course 2022 - MongoDB, Express, <br>React and NodeJS”</span></h4>
+            <div class="row row-cols-2  row-cols-md-5  g-4 mt-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/mern/mern.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title ">MERN Stack Full  </h5>
+                      <p class="card-text text-muted">Lorem sum dolor sit amet consectetur adipisicing elit. Quaerat, optio.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/mern/react.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">React Front To Back 2022</h5>
+                      <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, optio.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/mern/nodejs.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Node JS full course</h5>
+                      <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, optio.</p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/mern/express.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Express JS full course</h5>
+                      <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, optio.</p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./img/mern/mongodb.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">MongoDB full course</h5>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, optio.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+       
+    </section>
+    
+    <!--Recommended for you-->
+    <section class="recomm" id="recomm">
+        <div class="container-fluid">
+          <h1>Recommended for you</h1>
+          <div class="row row-cols-2  row-cols-md-5  g-4 mt-3">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./img/recom/datasci.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title ">Data Science</h5>
+                  <span class="badge bg-primary">Offer $ 10/- $<del>20 /-</del></span>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./img/recom/arti.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Artificial Intelligence</h5>
+                  <span class="badge bg-primary">Offer $ 20/- $<del>50 /-</del></span>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./img/recom/cloud.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cloud Computing</h5>
+                  <span class="badge bg-success">Free of Cost</span>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./img/recom/network.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Networking</h5>
+                  <span class="badge bg-success">Free of Cost</span>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                  <img src="./img/recom/softwear.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Software Development</h5>
+                    <span class="badge bg-success">Free of Cost</span>
+                  </div>
+                </div>
+              </div>
+          </div> 
+        </div>
+    </section>
+
+    <!--Top courses in Web Development-->
+    <section class="topweb" id="it">
+        <div class="container-fluid">
+            <h1>Top courses in<span style="color:slateblue ;"> Web Development </span></h1>
+        </div>
+        <div class="container">
+          <div class="slide-track">
+            <div class="slide">
+              <img src="./img/autoslider/c.jpg" alt="logo1" height="100" width="250">
+            </div>
+            <div class="slide">
+              <img src="./img/autoslider/java.gif" alt="logo1" height="100" width="250">
+            </div>
+            <div class="slide">
+              <img src="./img/autoslider/python.png" alt="logo1" height="100" width="250">
+            </div>
+            <div class="slide">
+              <img src="./img/autoslider/ph.png" alt="logo1" height="100" width="250">
+            </div>
+            <div class="slide">
+              <img src="./img/autoslider/html.png" alt="logo1" height="100" width="250">
+            </div>
+            <div class="slide">
+              <img src="./img/autoslider/bootstrap.png" alt="logo1" height="100" width="250">
+            </div>
+            <div class="slide">
+              <img src="./img/autoslider/jquery.png" alt="logo1" height="100" width="250">
+            </div>
+            <div class="slide">
+              <img src="./img/autoslider/mysql.png" alt="logo1" height="100" width="250">
+            </div>
+            <div class="slide">
+              <img src="./img/autoslider/react.png" alt="logo1" height="100" width="250">
+            </div>
+            <div class="slide">
+              <img src="./img/autoslider/angular.jpg" alt="logo1" height="100" width="250">
+            </div>
+            <div class="slide">
+              <img src="./img/autoslider/nodejs.png" alt="logo1" height="100" width="250">
+            </div>
+            <div class="slide">
+              <img src="./img/autoslider/mongo.png" alt="logo1" height="100" width="250">
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--Topics recommended for you-->
+    <section class="topics" id="topic">
+      <div class="container-fluid">
+          <h1>Topics recommended for you</h1>
+          <div class="row row-cols-1  row-cols-md-5  g-4 mt-3">
+            <div class="col">
+              <div class="card new-card" >
+                <div class="card-body">
+                  <h5 class="card-title">MERN Stack</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card new-card" >
+                <div class="card-body">
+                  <h5 class="card-title">React Hooks</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card new-card" >
+                <div class="card-body">
+                  <h5 class="card-title">Express Framework</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card new-card" >
+                <div class="card-body">
+                  <h5 class="card-title">Bootstrap 5</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card new-card" >
+                <div class="card-body">
+                  <h5 class="card-title">Mongodb</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card new-card" >
+                <div class="card-body">
+                  <h5 class="card-title">Redux Framework</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card new-card" >
+                <div class="card-body">
+                  <h5 class="card-title">React Js</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card new-card" >
+                <div class="card-body">
+                  <h5 class="card-title">Node JS</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card new-card" >
+                <div class="card-body">
+                  <h5 class="card-title">Software Testing</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card new-card" >
+                <div class="card-body">
+                  <h5 class="card-title">Next Js</h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+
+    </section>
+
+    <!--faq section-->
+    <section class="faqsection" id="faq">
+      <div class="container-fluid">
+          <h1 >Frequently Asked Questions</h1>
+          <div class="row mt-5">
+            <div class="col">
+              <div class="accordion accordion-flush mx-auto" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      How do I apply?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam reprehenderit ab porro dolor suscipit culpa quidem, illo iure. Doloremque fugiat impedit sapiente velit magnam optio amet atque magni, corporis esse distinctio, eveniet voluptatem eaque. Aperiam officia exercitationem praesentium magni cupiditate. Modi vitae fugit quod nemo nulla dignissimos ut ipsa expedita.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      How do I get reference?
+                     </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ea illo voluptatem quisquam sed velit sapiente accusamus a temporibus illum, quos distinctio quibusdam ducimus possimus ab fuga sit repudiandae esse! Quidem quam ducimus illum temporibus dolorem tempore vero voluptatibus rem aspernatur animi fuga quibusdam, mollitia recusandae soluta beatae minima? Quas!</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      What are entry requirements?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero pariatur repellendus saepe nesciunt debitis dolor velit architecto voluptatem cum, fugit, minus, praesentium mollitia magnam recusandae repellat! Natus iusto dolore quam provident sit ipsam eos cum autem aperiam, voluptatum reprehenderit reiciendis sunt iure beatae ea dolores quia possimus enim at.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!--Footer start-->
+    <footer>
+      <div class="container-fluid">
+        <div class="row footer-text ">
+          <div class="col-md-6">
+              <h1>MySkill</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sequi nesciunt veniam id ipsa harum ea enim atque reprehenderit, autem soluta perferendis a magnam nihil itaque unde aspernatur! Autem, illum!</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          <div class="col-md-3">
+            <h3>Important Link</h3>
+            <li><a href="#">Development</a></li>
+            <li><a href="#">Recommended</a></li>
+            <li><a href="#">IT & Software</a></li>
+            <li><a href="#">Topics</a></li>
+            <li><a href="#">FAQ</a></li>
+          </div>
+          <div class="col-md-3">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your Email">
+              <button class="btn btn-success mt-4">Subscribe Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+<!--Footer end-->
+
+   <!--bootstrap 5 js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+         
+      </body>
+
+</html>

@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*topnavbar**/
+.nav-link {
+    color: slateblue;
+   
+}
+/**navbar**/
+.logo{
+    font-weight: 800;
+    color: slateblue;
+}
+.navbar-light .navbar-brand {
+    color:black;
+    font-size: 25px;
+}
+
+.nav-link:hover {
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.navbar-light .navbar-toggler {
+    color: black;
+    border: none;
+    border-color: rgba(0,0,0,.1);
+}
+
+/**main img**/
+.main{
+   background-image: url("../img/bgimg.png");
+   background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+  
+}
+@media only screen and (max-width:600px){
+    .main{
+        background-position: 80% 3%;
+    }
+    
+}
+
+/**section new Learn***/
+.new-learn{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.card-img-top{
+    height: 200px;
+}
+.card-text{
+    font-size: 15px;
+    line-height: 15px;
+    
+}
+.card{
+    border: none;
+}
+.card-title{
+    font-size: 15px;
+}
+
+/**recomm*/
+.recomm{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+/**topcourse**/
+.topweb{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}   
+@keyframes scroll{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(calc(-250px * 7));
+    }
+}
+.head{
+    text-align: center;
+    color:red;
+    text-decoration-line: underline;
+    text-decoration-color: black;  
+    text-transform: uppercase;
+}
+.container{
+    margin-top: 50px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+.container .slide-track{
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px *14);
+
+}
+/**topics***/
+.topics{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.new-card{
+    border: 2px solid black;
+}
+/**faq**/
+.faqsection{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 0;
+    background-color: antiquewhite;
+    padding-top: 30px;
+}
+
+/**FOOTER**/
+/**footer***/
+footer {
+    background: #212529;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+.footer-text{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.text-muted {
+    color: white !important;
+}
+
+ a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+    
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: slateblue!important;
+    opacity: 1; /* Firefox */
+  }
+li{
+    list-style-type: none;
+}
+
+a:hover,
+a:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.text-small {
+    font-size: 0.9rem;
+}
